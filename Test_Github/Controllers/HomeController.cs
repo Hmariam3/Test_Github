@@ -16,7 +16,8 @@ namespace Test_Github.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
-            string haile;
+            string haile; 
+
             return View();
         }
 
